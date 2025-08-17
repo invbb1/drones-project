@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 30
+names: ['Acura', 'Audi', 'Benz', 'Bmw', 'Chair', 'Chevrolet', 'Ford', 'Honda', 'Hyundai', 'Infiniti', 'Kia', 'Lamborghini', 'Lexus', 'Mazda', 'MercedesBenz', 'Nissan', 'Porsche', 'Table', 'Tesla', 'Toyota', 'Window', 'auto', 'car', 'czlowiek', 'dron', 'grama curta', 'grama grande', 'grama media', 'light', 'tree']
+
+roboflow:
+  workspace: test-1tqq7
+  project: twq-sec-upjn0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-1tqq7/twq-sec-upjn0/dataset/1
